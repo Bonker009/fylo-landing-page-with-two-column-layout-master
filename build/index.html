@@ -22,10 +22,10 @@
     <!-- style this header with nav using tailwind-->
 
     <header
-      class="mx-auto max-w-full px-20 flex flex-row justify-between items-center p-4 text-gray-800 top-0 sticky z-10 bg-slate-100"
+      class="mx-auto max-w-full px-10 sm:px-20 flex flex-row justify-between items-center p-4 text-gray-800 top-0 sticky z-10 bg-slate-100"
     >
-      <img src="./images/logo.svg" class="w-auto" alt="Fylo" />
-      <ul class="flex flex-row gap-6 font-semibold text-blue-950">
+      <img src="./images/logo.svg" class="sm:w-auto w-24" alt="Fylo" />
+      <ul class="flex flex-row gap-6 font-semibold text-blue-950 text-sm">
         <li><a href="#feature">Features</a></li>
         <li><a href="#team">Team</a></li>
         <li><a href="#signin">Sign In</a></li>
@@ -35,10 +35,10 @@
     <main class="max-w-8xl mt-20 m-auto">
       <section
         id="feature"
-        class="flex flex-col-reverse text-center sm:text-left sm:flex-row items-center gap-8 mb-80 px-20"
+        class="flex flex-col-reverse text-center sm:text-left sm:flex-row items-center gap-8 sm:mb-80 mb-20 p-10 sm:px-20"
       >
         <div>
-          <h1 class="text-blue-950 text-4xl font-bold mb-4">
+          <h1 class="text-blue-950 text-2xl  sm:text-4xl font-bold mb-4">
             All your files in one secure location, accessible anywhere.
           </h1>
           <p class="text-blue-950 font-semibold mb-4">
@@ -52,18 +52,18 @@
       </section>
       <section
         id="team"
-        class="flex flex-col-reverse text-center items-center sm:text-left sm:flex-row gap-9 px-20 bg-[url('./images/bg-curve-desktop.svg')] mb-20"
+        class="flex flex-col-reverse text-center items-center sm:text-left sm:flex-row gap-9 px-10 sm:px-20 bg-[url('./images/bg-curve-desktop.svg')] mb-20"
       >
         <section class="testimonail-left grid place-items-center sm:block">
           <h1 class="text-blue-950 sm:text-4xl text-2xl font-bold mb-4">
             Stay productive, wherever you are
           </h1>
           <div class="text-blue-950 font-semibold mb-4">
-            <p class="mb-4">
+            <p class="mb-4 text-left">
               Never let location be an issue when accessing your files. Fylo has
               you covered for all of your file storage needs.
             </p>
-            <p>
+            <p class="text-left">
               Securely share files and folders with friends, family and
               colleagues for live collaboration. No email attachments required!
             </p>
@@ -78,7 +78,7 @@
             >
             <img class="h-auto m-0 ml-2" src="./images/icon-arrow.svg" alt="" />
           </div>
-          <!-- style this testimonail with tailwind -->
+
           <div
             class="testimonail text-left bg-white rounded-md mt-12 shadow-lg text-sm p-7 text-blue-950 font-semibold max-w-sm"
           >
@@ -100,7 +100,7 @@
             </p>
             <figure class="flex  items-start gap-3 mt-4">
               <img
-                class="rounded-full w-9"
+                class="rounded-full w-1/2"
                 src="./images/avatar-testimonial.jpg"
                 alt=""
               />
@@ -115,13 +115,13 @@
       </section>
       <section
         id="signin"
-        class="bg-gray-800 grid place-items-center text-center pt-4 pb-4 w-full sm:px-20 sm:p-20 sm:flex sm:flex-row sm:justify-between sm:items-center"
+        class="bg-gray-800 grid place-items-center text-center pt-4 pb-4  w-full sm:px-20 sm:p-20 sm:flex sm:flex-row sm:justify-between sm:items-center"
       >
         <div class="w-1/2">
           <h1 class="text-white font-semibold text-2xl mb-5">
             Get early access today
           </h1>
-          <p class="text-gray-300">
+          <p class="text-gray-300  ">
             It only takes a minute to sign up and our free starter tier is
             extremely generous. If you have any questions, our support team
             would be happy to help you.
@@ -143,7 +143,7 @@
       </section>
     </main>
 
-    <footer class="bg-gray-900 text-white p-20">
+    <footer class="bg-gray-900 text-white sm:p-20 p-10">
       <div class="flex justify-around flex-col sm:flex-row sm:items-end gap-8">
         <div>
           <svg
